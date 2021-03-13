@@ -76,9 +76,9 @@ header img {
   transition: all .3s ease-in-out;
 }
 
-.schedule-top {
+.schedule-top p {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
 }
 
