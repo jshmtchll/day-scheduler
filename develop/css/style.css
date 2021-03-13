@@ -18,7 +18,13 @@ textarea{
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  /*border-bottom: 6px solid black;*/
+  padding-bottom: 0%;
+}
+
+header img {
+  height: 25px;
+  width: auto;
 }
 
 .description{
@@ -68,4 +74,33 @@ textarea{
 .saveBtn:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+th {
+  border-style : hidden!important; /*override table boreders*/
+  font-weight: bolder;
+ }
+
+ 
+/*hr animation*/
+.trans--grow{
+  -webkit-transition: width 1s ease-out; 
+  transition: width 1s  ease-out;
+  width : 0%;
+}
+.grow{
+  width:100%;
+}
+.hr1{
+  margin-left:0;
+}
+.hr2{
+  margin-right:0;
+}
+hr{
+  margin-top: 20px;
+  padding: 2px 0;
+  border: none;
+  background-color: rgb(15, 15, 15);
+  letter-spacing: 5px;
 }

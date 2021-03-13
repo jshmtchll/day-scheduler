@@ -16,11 +16,23 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p class="today"></p>
-      <p id="currentDay" class="lead"></p>
+      <hr class="trans--grow hr1">
+      <p class="lead">Today is <span id="today" class="lead"></span></p>
+      <p class="lead">Current time is <span id="currenttime" class="lead"></span>
+        <img src="./develop/images/coffee.png"/>
+      </p>
+      <hr class="trans--grow hr2">
     </header>
     
-    <div>
+    <table class="table table-hover text-center">
+      <thead>
+          <tr>
+              <th class="text-left" scope="col">&ensp;&ensp;&ensp;Hour</th>
+              <th scope="col">To-do Item</th>
+              <th class="text-right" scope="col">Save&ensp;&ensp;&ensp;</th>
+          </tr>
+      </thead>
+  </table>
         <div class="container-fluid">
           <div id="9" class="row no-gutters time-block">
             <div class=" col-1 hour">9 AM</div>
@@ -84,7 +96,7 @@
             <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
           </div>
         </div>
-      </div>
+      
       
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
