@@ -76,10 +76,11 @@ header img {
   transition: all .3s ease-in-out;
 }
 
-th {
-  border-style : hidden!important; /*override table boreders*/
-  font-weight: bolder;
- }
+.schedule-top {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
 
  
 /*hr animation*/
@@ -104,3 +105,5 @@ hr{
   background-color: rgb(15, 15, 15);
   letter-spacing: 5px;
 }
+
+

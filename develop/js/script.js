@@ -36,5 +36,5 @@ $('#currenttime').text(moment().format('h:mm a'));
 jQuery(document).ready(function($){
     setTimeout(function(){
         $('.trans--grow').addClass('grow');
-    }, 275);
+    }, 325);
 });
