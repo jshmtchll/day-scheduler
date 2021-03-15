@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  
 }
 
 textarea{
@@ -116,6 +117,26 @@ hr{
     -webkit-transition: background-color 1000ms linear;
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
+}
+
+textarea {
+  text-indent: 10px;
+}
+
+
+
+@media only screen and (max-width: 425px){
+	#schedule-top {
+    display: none;
+  }
+
+  .deletebtn {
+    font-size: 40px;
+  }
+
+  textarea {
+    text-align:center;
+  }
 }
 
 
