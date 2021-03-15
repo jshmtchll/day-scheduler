@@ -7,7 +7,7 @@ A simple calendar application that allows the user to save events for each hour 
 
 Demo: https://jshmtchll.github.io/day-scheduler/
 
-![day schedule demo]()
+![day schedule demo](develop/images/Work-Day-Scheduler.gif)
 
 ## Built With
 
