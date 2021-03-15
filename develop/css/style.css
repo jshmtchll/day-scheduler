@@ -70,6 +70,7 @@ header img {
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  outline: none !important;
 }
 
 .saveBtn:hover {
@@ -122,6 +123,7 @@ hr{
 textarea {
   text-indent: 10px;
 }
+
 
 
 
