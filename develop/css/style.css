@@ -106,4 +106,16 @@ hr{
   letter-spacing: 5px;
 }
 
+.deletebtn {
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.deletebtn:hover {
+  background-color: #ff6961;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
 
